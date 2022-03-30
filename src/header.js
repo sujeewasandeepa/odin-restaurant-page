@@ -10,5 +10,6 @@ function renderHeaderText () {
     h1.innerText = "Colombo Chill Zone";
     h1.classList.add('heading');
     header.append(h1);
+    header.classList.add('header');
     content.append(header);
 }
