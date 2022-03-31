@@ -1,5 +1,8 @@
 import header from "./header";
-export const content = document.querySelector('#content');
+import renderTabs from "./tabs";
 import './style.css';
 
+export const content = document.querySelector('#content');
+
 header();
+renderTabs();
