@@ -107,3 +107,8 @@ hr {
     background-color: black;
     scroll-behavior: smooth;
 }
+
+marquee {
+    font-size: 40px;
+    font-family: monospace;
+}
