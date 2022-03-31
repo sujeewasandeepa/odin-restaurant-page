@@ -1,7 +1,7 @@
-import { content } from ".";
+import { content, container } from ".";
 
 export default function renderTabs () {
-    const container = document.createElement('div');
+
     const tabLists = document.createElement('ul');
     const home = document.createElement('li');
     const menu = document.createElement('li');
@@ -10,7 +10,6 @@ export default function renderTabs () {
     home.id = 'home';
     menu.id = 'menu';
     contact.id = 'contact';
-    container.id = 'container';
 
     tabLists.className = "tabList";
 

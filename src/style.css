@@ -1,23 +1,49 @@
+body {
+    background: url('background.jpg');
+}
+
 content {
     width: 80%;
     margin: auto;
+}
+
+#container {
+    background-color: rgb(240, 203, 155);
+    min-height: 700px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border: 5px solid black;
 }
 
 .heading {
     color: rgb(122, 53, 13);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px;
+    border: 5px solid black;
 }
 
 .header {
-    background-color: rgb(235, 211, 179);
+    background-color: rgb(240, 203, 155);
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .tabList {
     text-align: center;
+    border: 5px solid black;
+    padding: 10px;
 }
 
 .tabList li {
     display: inline;
     margin-left: 10px;
+    color: rgb(173, 76, 19);
+    font-size: 24px;
+}
+
+.tabList li:hover {
+    color: rgb(114, 50, 13);
+    font-weight: bold;
 }
