@@ -58,6 +58,8 @@ content {
 .subHeading {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+    font-style: italic;
 }
 
 #greeting {
@@ -81,6 +83,10 @@ h3 {
     padding-right: 10%;
 }
 
+.tabContent {
+    text-align: center;
+}
+
 .schedule {
     font-size: 32px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -88,4 +94,16 @@ h3 {
     text-align: center;
     padding: 20px;
     font-weight: bold;
+}
+
+.coffeeImg {
+    width: 250px;
+    height: 250px;
+}
+
+hr {
+    width: 60%;
+    height: 2px;
+    background-color: black;
+    scroll-behavior: smooth;
 }
