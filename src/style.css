@@ -53,3 +53,12 @@ content {
     color: rgb(114, 50, 13);
     font-weight: bold;
 }
+
+.subHeading {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#greeting {
+    text-align: center;
+}
